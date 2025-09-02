@@ -10,5 +10,7 @@ $(document).ready(function() {
 	$("#p1").click(function () {
 		$(".disappear").toggle();
     });
-	
+	$("img").mouseenter(function () {
+		alert("You found the picture!");
+    });
 });
